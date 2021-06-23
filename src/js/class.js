@@ -11,7 +11,6 @@ class CountdownTimer {
     setInterval(() => {
       const time = this.getTimeDifference();
       this.otherTime = this.updateValues(time);
-      console.log(time)
     }, 1000)
   }
 
