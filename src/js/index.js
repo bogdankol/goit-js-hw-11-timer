@@ -9,7 +9,7 @@ refs = {
 
 const timer1 = new Counter({
   selector: '#timer-1',
-  targetDate: new Date('June 31, 2021, 11:59:30'),
+  targetDate: new Date('June 31, 2021, 15:34:40'),
 });
 
 timer1.start()

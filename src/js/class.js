@@ -59,7 +59,7 @@ class CountdownTimer {
     refs.minutes.textContent = '00';
     refs.seconds.textContent = '00';
 
-    this.id = 0;
+    clearInterval(this.id)
   }
 
 }
